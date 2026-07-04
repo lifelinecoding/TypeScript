@@ -1,0 +1,23 @@
+{
+  "name": "typescript-programming",
+  "version": "1.0.0",
+  "description": "This is just created for learning typescript",
+  "homepage": "https://github.com/lifelinecoding/TypeScript#readme",
+  "bugs": {
+    "url": "https://github.com/lifelinecoding/TypeScript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifelinecoding/TypeScript.git"
+  },
+  "license": "ISC",
+  "author": "Aditya Patel",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
