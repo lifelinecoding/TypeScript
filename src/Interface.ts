@@ -48,3 +48,20 @@ const usage: typeIntersection = {
   name: "Aditya",
   price: 300,
 };
+
+// Extending an interface
+interface A {
+  a: string;
+}
+interface B {
+  b: number;
+}
+
+interface C extends A, B {}
+
+const exp: C = {
+  a: "Aditya",
+  b: 12,
+};
+
+//Note:- If two interfaces have same name their properties will be combined.
